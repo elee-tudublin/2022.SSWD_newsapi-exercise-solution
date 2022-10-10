@@ -1,0 +1,66 @@
+html {
+    font-size: 100%;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  /* Fonts from Google Fonts - more at https://fonts.google.com */
+  @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+  
+  body {
+    background-color: white;
+    font-family: "Open Sans", sans-serif;
+    padding: 5px 25px;
+    font-size: 1rem;
+    margin: 0;
+    color: #444;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  article {
+    background-color: #f2ebeb;
+    margin-bottom: 10px;
+    padding: 0.4rem;
+  }
+  
+  article h4 {
+    color: red;
+  }
+  
+  article img {
+    max-width: 800px;
+  }
+  
+  /*
+  /* https://www.w3schools.com/Css/tryit.asp?filename=trycss_navbar_horizontal_responsive
+  */
+  ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  ul.topnav li {float: left;}
+  
+  ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul.topnav li a:hover:not(.active) {background-color: #111;}
+  
+  ul.topnav li a.active {background-color: #04AA6D;}
+  
+  ul.topnav li.right {float: right;}
+  
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+  }
