@@ -133,4 +133,5 @@ function formatDate(d) {
 
 calling the function in ```displayData()```
 
-![](D:\webapps\sswd-2022\newsapi-exercise-solution\media\date_format.png)
+![](./media/date_format.png)
+
